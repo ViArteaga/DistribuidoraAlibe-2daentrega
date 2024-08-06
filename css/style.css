@@ -112,6 +112,12 @@ h2{
     width: 100%;
 }
 
+.sub-subtitulos{
+    display: flex;
+    width: 100%;
+}
+
+
 /*footer*/
 
 footer{
