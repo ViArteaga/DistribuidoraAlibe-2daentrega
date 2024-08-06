@@ -9,39 +9,57 @@
 
 /*header*/
 
+.imagen-logo{
+    justify-content: left;
+}
 .top-container{
     display:flex;
     align-items: center;
     background-color:white;
-}
-.logo-alibe{
-    width: 200px;
-}
-.logo-alibe img{
     width: 100%;
 }
 .menu{
     display: flex;
+    width: 100%;
     justify-content: space-around;
 }
-.menu li{
-    list-style-type: none;
-    display: flex;;
+.container-fluid{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
 }
-.menu li a{
+.container-fluid li{
+    list-style-type: none;
+    display: flex;
+}
+.container-fluid li a{
     text-decoration: none;
     color: #ed2317;
     font-weight: 700;
     font-size: 1em;
 }
 /*para que ocupe todo el ancho el nav*/
-header nav{
+.menu container-fluid{
     width: 100%;
     justify-content: center;
 }
+
+.btn-outline-success {
+        --bs-btn-color: #9fc23a;
+        --bs-btn-border-color: #9fc23a;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #9fc23a;
+        --bs-btn-hover-border-color: #9fc23a;
+}
+
 /*Para que este centrado verticalmente*/
 
 /*main*/
+
+.dropdown-total{
+    display: flex;
+}
 
 h1{
     color: #ed2317;
