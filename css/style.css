@@ -60,6 +60,13 @@
 .dropdown-total{
     display: flex;
 }
+.btn-secondary {
+    --bs-btn-color: #6c757d;
+    --bs-btn-bg: #e2e2e2;
+    --bs-btn-border-color: #fbfbfb;
+    --bs-btn-hover-color: #fbfbfb;
+    --bs-btn-hover-bg: #5c636a;
+}
 
 h1{
     color: #ed2317;
